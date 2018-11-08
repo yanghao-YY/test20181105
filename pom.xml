@@ -17,16 +17,15 @@
   </dependencies>
   <build>
     <finalName>myweb</finalName>
-  </build>
-  <plugin>
+	  <plugin>
 	            <groupId>org.apache.maven.plugins</groupId>
 	            <artifactId>maven-war-plugin</artifactId>
 	            <version>2.2</version>
-	            <configuration>
-	                <!-- 指定web.xml的路径  -->
-					<webXml>webapp\WEB-INF\web.xml</webXml>
-				
+	            <configuration>   
+					<webXml>webapp\WEB-INF\web.xml</webXml>			
 	            </configuration>
 	        </plugin>
+  </build>
+
 
 </project>
